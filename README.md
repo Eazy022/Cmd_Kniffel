@@ -37,13 +37,21 @@ Die Passwörter werden sicher mit SHA-256 gehasht
 Jede Bewertungsfunktion entspricht einer Kniffel-Kategorie:
 
     pips_sum(n, dice)  Summe aller Würfel mit der Zahl n
+   
     three_of_a_kind(dice)  mind. drei gleiche: Summe aller Augen
+   
     four_of_a_kind(dice)  mind. vier gleiche: Summe aller Augen
+   
     full_house(dice)  3+2 Kombination: 25 Punkte
+   
     small_straight(dice)  Sequenz von 4 Zahlen: 30 Punkte
+   
     large_straight(dice)  Sequenz von 5 Zahlen: 40 Punkte
+   
     kniffel(dice)  alle fünf gleich: 50 Punkte
+   
     chance(dice)  Summe aller Würfel
+   
       
 Die Kategorien sind in CATEGORIES definiert und werden dynamisch angezeigt.
 
